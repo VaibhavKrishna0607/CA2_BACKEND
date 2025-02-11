@@ -4,9 +4,9 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
-    res.send("Hello Kalvian");
-});
+// app.get('/', (req, res) => {
+//     res.send("Hello Kalvian");
+// });
 
 app.post('/', (req, res) => {
     const { username, email, password } = req.body;
