@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     res.send("Hello Kalvian");
 });
 
-app.post('/signup', (req, res) => {
+app.post('/', (req, res) => {
     const { username, email, password } = req.body;
 
     if (!username) {
