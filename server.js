@@ -23,7 +23,7 @@ app.post('/', (req, res) => {
 
     
 
-    res.send("Credentials saved successfully");
+    res.send("Done");
 });
 
 const port = 3000;
