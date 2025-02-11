@@ -15,7 +15,7 @@ app.post('/', (req, res) => {
         res.send("Email cannot be empty");
     }
     const password = req.params.password;
-    if(password.length<8 || password.length>=16){
+    if(password.length < 8 || password.length >= 16){
         res.send("Password length should be greater than 8 or less than or equal to 16");
 }});
 
